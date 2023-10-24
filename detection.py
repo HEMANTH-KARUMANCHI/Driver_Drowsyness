@@ -7,11 +7,11 @@ import time
 
 # this is used to get beep sound (when person closes his eyes for more them 10sec)
 mixer.init()
-alarm_sound = mixer.Sound(r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\mixkit-vintage-warning-alarm-990.wav")
+alarm_sound = mixer.Sound(r"C:\Users\Hemanth\Documents\Project\Driver Drowsyness\mixkit-vintage-warning-alarm-990.wav")
 # this xml files are used to detect face , left eye , and right eye of a person.
-face_detection = cv2.CascadeClassifier(r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\haarcascade_frontalface_alt.xml")
-left_eye_detection = cv2.CascadeClassifier(r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\haarcascade_lefteye_2splits.xml")
-right_eye_detection = cv2.CascadeClassifier(r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\haarcascade_righteye_2splits.xml")
+face_detection = cv2.CascadeClassifier(r"C:\Users\Hemanth\Documents\Project\Driver Drowsyness\haarcascade_frontalface_alt.xml")
+left_eye_detection = cv2.CascadeClassifier(r"C:\Users\Hemanth\Documents\Project\Driver Drowsyness\haarcascade_lefteye_2splits.xml")
+right_eye_detection = cv2.CascadeClassifier(r"C:\Users\Hemanth\Documents\Project\Driver Drowsyness\haarcascade_righteye_2splits.xml")
 
 
 labels =['Close','Open']

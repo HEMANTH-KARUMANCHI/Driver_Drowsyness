@@ -9,7 +9,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D , MaxPooling2D , Flatten , Dense
 
 # setting the path to our eye dataset: 
-Directory = r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\Eye dataset"
+Directory = r"C:\Users\Hemanth\OneDrive\Desktop\project DDD\Eye dataset"
+#Directory = r"C:\Users\akash jakkula\OneDrive\Desktop\project DDD\Eye dataset"
 # specify two categories on which we want to train our data:
 CATEGORIES = ['close_look' , 'forward_look']
 
